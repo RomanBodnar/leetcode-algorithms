@@ -16,8 +16,7 @@ internal class Program
     // 
     static void Main(string[] args)
     {
-
-       new BullsAndCows().Test();
+       new StringDecode().Test();
     }
 
     public static ListNode RotateRight(ListNode head, int k) {
