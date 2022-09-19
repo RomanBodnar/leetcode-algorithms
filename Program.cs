@@ -16,7 +16,7 @@ internal class Program
     // 
     static void Main(string[] args)
     {
-       new StringDecode().Test();
+       new TopKFrequentWords().Test();
     }
 
     public static ListNode RotateRight(ListNode head, int k) {

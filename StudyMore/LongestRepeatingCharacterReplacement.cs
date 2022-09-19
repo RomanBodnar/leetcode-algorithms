@@ -50,3 +50,24 @@ public class LongestRepeatingCharacterReplacement {
 //             #a storing the length of longest substring
 //             a=max(a,r-l+1) 
 //         return a
+
+
+// public class Solution {
+//     public int CharacterReplacement(string s, int k) {
+//         int left = 0;
+//         Dictionary<char, int> Alph = new Dictionary<char,int>();
+//         int maxRepChar = 0;
+//         for(int right = 0; right < s.Length; right++){
+//             if(!Alph.ContainsKey(s[right]))
+//                 Alph.Add(s[right],0);
+//             Alph[s[right]]++;
+//             while((right - left + 1) - Alph.Values.Max() > k){
+//                 Alph[s[left]]--;
+//                 left++;
+//             }
+//             maxRepChar = Math.Max(maxRepChar, (right - left + 1));
+//         }
+        
+//         return maxRepChar;
+//     }
+// }
